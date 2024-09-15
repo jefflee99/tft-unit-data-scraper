@@ -1,0 +1,215 @@
+[
+    {
+        "name": "portal",
+        "breaks": [
+            3,
+            6,
+            8,
+            1
+        ]
+    },
+    {
+        "name": "faerie",
+        "breaks": [
+            3,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "frost",
+        "breaks": [
+            3,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "eldritch",
+        "breaks": [
+            3,
+            5,
+            7,
+            1
+        ]
+    },
+    {
+        "name": "witchcraft",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "sugarcraft",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "honeymancy",
+        "breaks": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "chrono",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "pyro",
+        "breaks": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "arcana",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "dragon",
+        "breaks": [
+            2,
+            3
+        ]
+    },
+    {
+        "name": "ravenous",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "druid",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "shapeshifter",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "mage",
+        "breaks": [
+            3,
+            5,
+            7,
+            1
+        ]
+    },
+    {
+        "name": "multistriker",
+        "breaks": [
+            3,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "bastion",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "vanguard",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "blaster",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "warrior",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "scholar",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "hunter",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "preserver",
+        "breaks": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "incantor",
+        "breaks": [
+            2,
+            4
+        ]
+    },
+    {
+        "name": "best-friends",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "bat-queen",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "ascendant",
+        "breaks": [
+            1
+        ]
+    }
+]
