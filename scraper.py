@@ -78,8 +78,8 @@ class ChampData():
         # attack_range must be an int between 1 and 10 
         if type(attack_range) != int:
             raise TypeError("attack_range must be an int")
-        if attack_range < 1 or attack_range > 10:
-            raise ValueError("attack_range must be between 1 and 10")
+        if attack_range < 0 or attack_range > 10:
+            raise ValueError("attack_range must be between 0 and 10")
 
         # set instance variables
         self.name = name
@@ -194,6 +194,7 @@ def parse_page(raw_scrape_text):
         attack_range = stats[6].text
         attack_range = int(attack_range)
         # create a ChampData object
+        print ("now excute the ", champion_name, "attack_range is ", attack_range)
         champs_list.append(ChampData(champion_name, champion_cost, traits, health, armor, magic_res, mana, attack_damage, attack_speed, attack_range))
     # hydrate the rarity on the champions
     rarities = {}
@@ -201,7 +202,8 @@ def parse_page(raw_scrape_text):
     for block in blocks:
         rarity = block.find("img").get("class")[0].split("-")[1]
         name = block.find("span").text
-        rarities[name] = int(rarity)
+        if rarity.isdigit():
+            rarities[name] = int(rarity)
     for champ in champs_list:
         if champ.name in rarities:
             champ.rarity = rarities[champ.name]
